@@ -7,7 +7,9 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "NPBVideoManager.h"
+#import "NPBMainPanelView.h"
 
-@interface NPBViewController : UIViewController
+@interface NPBViewController : UIViewController <NPBVideoActionProtocol>
 
 @end

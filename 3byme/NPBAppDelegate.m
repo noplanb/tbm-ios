@@ -7,6 +7,7 @@
 //
 
 #import "NPBAppDelegate.h"
+#import "PBJVision.h"
 
 @implementation NPBAppDelegate
 

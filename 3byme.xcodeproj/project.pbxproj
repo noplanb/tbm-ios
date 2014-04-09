@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		36F20EEB71464D65ADA7E8C8 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BEE8577D760E45DB9C788BFA /* libPods.a */; };
 		A516B73718CE306B00F9D0D9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A516B73618CE306B00F9D0D9 /* Foundation.framework */; };
 		A516B73918CE306B00F9D0D9 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A516B73818CE306B00F9D0D9 /* CoreGraphics.framework */; };
 		A516B73B18CE306B00F9D0D9 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A516B73A18CE306B00F9D0D9 /* UIKit.framework */; };
@@ -21,6 +22,10 @@
 		A516B75818CE306B00F9D0D9 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A516B73A18CE306B00F9D0D9 /* UIKit.framework */; };
 		A516B76018CE306B00F9D0D9 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A516B75E18CE306B00F9D0D9 /* InfoPlist.strings */; };
 		A516B76218CE306B00F9D0D9 /* _bymeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A516B76118CE306B00F9D0D9 /* _bymeTests.m */; };
+		A516B76D18CE3C5C00F9D0D9 /* NPBVideoManager.m in Sources */ = {isa = PBXBuildFile; fileRef = A516B76C18CE3C5C00F9D0D9 /* NPBVideoManager.m */; };
+		A516B77018CE491200F9D0D9 /* AssetsLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A516B76F18CE491200F9D0D9 /* AssetsLibrary.framework */; };
+		A558770418D0EA5200567746 /* NPBMainPanelView.m in Sources */ = {isa = PBXBuildFile; fileRef = A558770318D0EA5200567746 /* NPBMainPanelView.m */; };
+		A558770718D11B3E00567746 /* NPBVideoFrameView.m in Sources */ = {isa = PBXBuildFile; fileRef = A558770618D11B3E00567746 /* NPBVideoFrameView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +58,17 @@
 		A516B75D18CE306B00F9D0D9 /* 3bymeTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "3bymeTests-Info.plist"; sourceTree = "<group>"; };
 		A516B75F18CE306B00F9D0D9 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		A516B76118CE306B00F9D0D9 /* _bymeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = _bymeTests.m; sourceTree = "<group>"; };
+		A516B76B18CE3C5C00F9D0D9 /* NPBVideoManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NPBVideoManager.h; sourceTree = "<group>"; };
+		A516B76C18CE3C5C00F9D0D9 /* NPBVideoManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NPBVideoManager.m; sourceTree = "<group>"; };
+		A516B76F18CE491200F9D0D9 /* AssetsLibrary.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AssetsLibrary.framework; path = System/Library/Frameworks/AssetsLibrary.framework; sourceTree = SDKROOT; };
+		A558770218D0EA5200567746 /* NPBMainPanelView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NPBMainPanelView.h; sourceTree = "<group>"; };
+		A558770318D0EA5200567746 /* NPBMainPanelView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NPBMainPanelView.m; sourceTree = "<group>"; };
+		A558770518D11B3E00567746 /* NPBVideoFrameView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NPBVideoFrameView.h; sourceTree = "<group>"; };
+		A558770618D11B3E00567746 /* NPBVideoFrameView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NPBVideoFrameView.m; sourceTree = "<group>"; };
+		A558770818D11DCC00567746 /* NPBVideoActionProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NPBVideoActionProtocol.h; sourceTree = "<group>"; };
+		A558770918D2142E00567746 /* PBJVision_extensions.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PBJVision_extensions.h; sourceTree = "<group>"; };
+		BEE8577D760E45DB9C788BFA /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		F901ECE99E4F47B9BE09AEB6 /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,9 +76,11 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A516B77018CE491200F9D0D9 /* AssetsLibrary.framework in Frameworks */,
 				A516B73918CE306B00F9D0D9 /* CoreGraphics.framework in Frameworks */,
 				A516B73B18CE306B00F9D0D9 /* UIKit.framework in Frameworks */,
 				A516B73718CE306B00F9D0D9 /* Foundation.framework in Frameworks */,
+				36F20EEB71464D65ADA7E8C8 /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -86,6 +104,7 @@
 				A516B75B18CE306B00F9D0D9 /* 3bymeTests */,
 				A516B73518CE306B00F9D0D9 /* Frameworks */,
 				A516B73418CE306B00F9D0D9 /* Products */,
+				F901ECE99E4F47B9BE09AEB6 /* Pods.xcconfig */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,10 +120,12 @@
 		A516B73518CE306B00F9D0D9 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				A516B76F18CE491200F9D0D9 /* AssetsLibrary.framework */,
 				A516B73618CE306B00F9D0D9 /* Foundation.framework */,
 				A516B73818CE306B00F9D0D9 /* CoreGraphics.framework */,
 				A516B73A18CE306B00F9D0D9 /* UIKit.framework */,
 				A516B75518CE306B00F9D0D9 /* XCTest.framework */,
+				BEE8577D760E45DB9C788BFA /* libPods.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -115,8 +136,16 @@
 				A516B74518CE306B00F9D0D9 /* NPBAppDelegate.h */,
 				A516B74618CE306B00F9D0D9 /* NPBAppDelegate.m */,
 				A516B74818CE306B00F9D0D9 /* Main.storyboard */,
+				A558770218D0EA5200567746 /* NPBMainPanelView.h */,
+				A558770318D0EA5200567746 /* NPBMainPanelView.m */,
+				A558770518D11B3E00567746 /* NPBVideoFrameView.h */,
+				A558770618D11B3E00567746 /* NPBVideoFrameView.m */,
+				A558770818D11DCC00567746 /* NPBVideoActionProtocol.h */,
 				A516B74B18CE306B00F9D0D9 /* NPBViewController.h */,
 				A516B74C18CE306B00F9D0D9 /* NPBViewController.m */,
+				A516B76B18CE3C5C00F9D0D9 /* NPBVideoManager.h */,
+				A516B76C18CE3C5C00F9D0D9 /* NPBVideoManager.m */,
+				A558770918D2142E00567746 /* PBJVision_extensions.h */,
 				A516B74E18CE306B00F9D0D9 /* Images.xcassets */,
 				A516B73D18CE306B00F9D0D9 /* Supporting Files */,
 			);
@@ -159,9 +188,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A516B76518CE306B00F9D0D9 /* Build configuration list for PBXNativeTarget "3byme" */;
 			buildPhases = (
+				1CE3FB0BE94B4AF9BAAFAF3D /* Check Pods Manifest.lock */,
 				A516B72F18CE306B00F9D0D9 /* Sources */,
 				A516B73018CE306B00F9D0D9 /* Frameworks */,
 				A516B73118CE306B00F9D0D9 /* Resources */,
+				79F03EA636034FBA8EFE04B0 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -245,14 +276,50 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		1CE3FB0BE94B4AF9BAAFAF3D /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		79F03EA636034FBA8EFE04B0 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		A516B72F18CE306B00F9D0D9 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				A516B74D18CE306B00F9D0D9 /* NPBViewController.m in Sources */,
+				A558770718D11B3E00567746 /* NPBVideoFrameView.m in Sources */,
 				A516B74318CE306B00F9D0D9 /* main.m in Sources */,
+				A516B76D18CE3C5C00F9D0D9 /* NPBVideoManager.m in Sources */,
 				A516B74718CE306B00F9D0D9 /* NPBAppDelegate.m in Sources */,
+				A558770418D0EA5200567746 /* NPBMainPanelView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -317,7 +384,6 @@
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
@@ -356,7 +422,6 @@
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = YES;
@@ -376,6 +441,7 @@
 		};
 		A516B76618CE306B00F9D0D9 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F901ECE99E4F47B9BE09AEB6 /* Pods.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -389,6 +455,7 @@
 		};
 		A516B76718CE306B00F9D0D9 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F901ECE99E4F47B9BE09AEB6 /* Pods.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -461,6 +528,7 @@
 				A516B76718CE306B00F9D0D9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A516B76818CE306B00F9D0D9 /* Build configuration list for PBXNativeTarget "3bymeTests" */ = {
 			isa = XCConfigurationList;
@@ -469,6 +537,7 @@
 				A516B76A18CE306B00F9D0D9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
